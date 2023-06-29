@@ -1,20 +1,11 @@
 import numpy as np
 
 def calc_minkowski_distance(x,y,p):
-    """Calculates the Minkowski distance between x and y.
-    Args:
-        x(ndarray): a vector of length d
-        y(ndarray): a vector of length d
-        p(int): the order of the Minkowski distance
-    """
+    #Calculates the Minkowski distance between x and y.
     return np.power(np.sum(np.power(np.abs(x-y),p)),1/p)
 
 def calc_distance_matrix(X, p):
-    """Calculates distance_matrix.
-    Args:
-        X(ndarray): (n,d) matrix
-        p(int): the order of the Minkowski distance
-    """
+    #Calculates distance_matrix.
     n = X.shape[0]
     distance_matrix = np.zeros((n,n))
     for i in range(n):
@@ -40,12 +31,7 @@ def farthest_point_from_centers(distance_matrix, centers):
     return farthest_point
 
 def k_centers(data, k, p):
-    """Calculates k-centers.
-    Args:
-        data(ndarray): (n,d) matrix
-        k(int): the number of centers
-        p(int): the order of the Minkowski distance
-    """
+    #Calculates k-centers.
     n = data.shape[0]
     distance_matrix = calc_distance_matrix(data,p)
     if k >= n:
@@ -55,3 +41,13 @@ def k_centers(data, k, p):
     while len(centers) < k:
         centers.append(farthest_point_from_centers(distance_matrix,centers))
     return np.array(centers)
+
+def calc_radius(data, centers, distance_matrix):
+    #Calculates the radius of the k-centers.
+    n = data.shape[0]
+    radius = 0
+    for i in range(n):
+        min_distance = min(distance_matrix[i, center] for center in centers)
+        if min_distance > radius:
+            radius = min_distance
+    return radius

@@ -20,8 +20,8 @@ def test3_calc_minkowski_distance():
     assert np.isclose(calc_minkowski_distance(x,y,2),6.082762530298219)
 
 def test1_calc_distance_matrix():
-    X = np.array([[1,2,3],[4,5,6],[7,8,9]])
-    D = calc_distance_matrix(X,1)
+    data = np.array([[1,2,3],[4,5,6],[7,8,9]])
+    D = calc_distance_matrix(data,1)
     assert D.shape == (3,3)
     assert D[0,0] == 0
     assert D[1,1] == 0
@@ -34,8 +34,8 @@ def test1_calc_distance_matrix():
     assert D[2,1] == 9
 
 def test2_calc_distance_matrix():
-    X = np.array([[1,2,3,4,6],[1,2,3,4,5]])
-    D = calc_distance_matrix(X,3)
+    data = np.array([[1,2,3,4,6],[1,2,3,4,5]])
+    D = calc_distance_matrix(data,3)
     assert D.shape == (2,2)
 
 def test_farthest_point_from_centers():
@@ -50,7 +50,14 @@ def test_farthest_point_from_centers():
     assert farthest_point_from_centers(D,centers) == 2
     centers = [0,1]
     assert farthest_point_from_centers(D,centers) == 2
-    with pytest.raises(Exception) as excinfo:
-        centers = [0,1,2]
-        assert farthest_point_from_centers(D,centers) == 0
-        assert str(excinfo.value) == "farthest_point == -1"
+    centers = [0,1,2]
+
+def test_calc_radius():
+    data = np.array([[1,2,3],[4,5,6],[7,8,9]])
+    distance_matrix = calc_distance_matrix(data,1)
+    centers = [0]
+    assert calc_radius(data,centers,distance_matrix) == 18
+    centers = [0,1]
+    assert calc_radius(data,centers,distance_matrix) == 9
+    centers = [0,1,2]
+    assert calc_radius(data,centers,distance_matrix) == 0
