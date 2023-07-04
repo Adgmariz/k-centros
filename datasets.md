@@ -16,3 +16,4 @@ Foram usados os dados do arquivo 'transfusion.data', que contém 748 instâncias
 - https://archive.ics.uci.edu/dataset/342/mice+protein+expression
 - https://archive.ics.uci.edu/dataset/422/wireless+indoor+localization
 - https://archive.ics.uci.edu/dataset/475/audit+data
+- https://archive.ics.uci.edu/dataset/161/mammographic+mass (tratar missing values)
