@@ -1,8 +1,8 @@
 Todos foram calculados para p=1,p=2 e p=3.
 
 1- optdigits: https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits
-k = 10
 Foram usados os dados do arquivo 'optdigits.tra', que contém 3823 instâncias. O formato dos dados está descrito no arquivo 'optdigits.names'.
+k = 10
 
 2- bloodtransfusion: https://archive.ics.uci.edu/dataset/176/blood+transfusion+service+center
 Foram usados os dados do arquivo 'transfusion.data', que contém 748 instâncias. O formato dos dados está descrito no arquivo 'transfusion.names'
