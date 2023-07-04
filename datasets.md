@@ -7,6 +7,7 @@ Foram usados os dados do arquivo 'transfusion.data', que contém 748 instâncias
 (calculado com p=1, p=2, p=3)
 
 3- banknote: https://archive.ics.uci.edu/dataset/267/banknote+authentication
+Foram usados os dados do arquivo 'data_banknote_authentication.txt', que contém 1372 instâncias.
 (calculado com p=1, p=2, p=3)
 
 
