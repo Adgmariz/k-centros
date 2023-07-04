@@ -3,7 +3,10 @@ Foram usados os dados do arquivo 'optdigits.tra'. O formato dos dados está desc
 
 2- https://archive.ics.uci.edu/dataset/176/blood+transfusion+service+center
 Foram usados os dados do arquivo 'transfusion.data', que contém 748 instâncias. O formato dos dados está descrito no arquivo 'transfusion.names'
+(acima só foi calculado p=1)
 
+3- https://archive.ics.uci.edu/dataset/267/banknote+authentication
+(calculado com p=1, p=2, p=3)
 
 
 
