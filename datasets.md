@@ -1,12 +1,12 @@
-1- https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits
+1- optdigits: https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits
 Foram usados os dados do arquivo 'optdigits.tra'. O formato dos dados está descrito no arquivo 'optdigits.names'.
 (acima só foi calculado p=1)
 
-2- https://archive.ics.uci.edu/dataset/176/blood+transfusion+service+center
+2- bloodtransfusion: https://archive.ics.uci.edu/dataset/176/blood+transfusion+service+center
 Foram usados os dados do arquivo 'transfusion.data', que contém 748 instâncias. O formato dos dados está descrito no arquivo 'transfusion.names'
 (calculado com p=1, p=2, p=3)
 
-3- https://archive.ics.uci.edu/dataset/267/banknote+authentication
+3- banknote: https://archive.ics.uci.edu/dataset/267/banknote+authentication
 (calculado com p=1, p=2, p=3)
 
 
