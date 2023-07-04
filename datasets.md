@@ -1,3 +1,10 @@
+1- https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits
+Foram usados os dados do arquivo 'optdigits.tra'. O formato dos dados está descrito no arquivo 'optdigits.names'.
+
+
+
+
+
 - https://archive.ics.uci.edu/dataset/222/bank+marketing
 - https://archive.ics.uci.edu/dataset/484/travel+reviews
 - https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition
