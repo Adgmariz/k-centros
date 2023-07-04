@@ -1,15 +1,18 @@
+Todos foram calculados para p=1,p=2 e p=3.
+
 1- optdigits: https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits
+k = 10
 Foram usados os dados do arquivo 'optdigits.tra'. O formato dos dados está descrito no arquivo 'optdigits.names'.
-(acima só foi calculado p=1)
 
 2- bloodtransfusion: https://archive.ics.uci.edu/dataset/176/blood+transfusion+service+center
 Foram usados os dados do arquivo 'transfusion.data', que contém 748 instâncias. O formato dos dados está descrito no arquivo 'transfusion.names'
-(calculado com p=1, p=2, p=3)
+k = 2
 
 3- banknote: https://archive.ics.uci.edu/dataset/267/banknote+authentication
 Foram usados os dados do arquivo 'data_banknote_authentication.txt', que contém 1372 instâncias.
-(calculado com p=1, p=2, p=3)
+k = 2
 
+4- 
 
 
 
