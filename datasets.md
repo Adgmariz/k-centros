@@ -1,5 +1,6 @@
 1- https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits
 Foram usados os dados do arquivo 'optdigits.tra'. O formato dos dados está descrito no arquivo 'optdigits.names'.
+
 2- https://archive.ics.uci.edu/dataset/176/blood+transfusion+service+center
 Foram usados os dados do arquivo 'transfusion.data', que contém 748 instâncias. O formato dos dados está descrito no arquivo 'transfusion.names'
 
