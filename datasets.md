@@ -36,9 +36,3 @@ k = 2
 
 10- website: https://archive.ics.uci.edu/dataset/379/website+phishing
 Foram usados os dados do arquivo 'PhishingData.arff', que contém 1353 instâncias. k = 3
-
-
-
-
-não terminou de rodar ainda- 7- htru: https://archive.ics.uci.edu/dataset/372/htru2
-Foram usados os dados do arquivo 'HTRU_2.csv', que contém 17898 instâncias. k = 2
