@@ -61,3 +61,13 @@ def test_calc_radius():
     assert calc_radius(data,centers,distance_matrix) == 9
     centers = [0,1,2]
     assert calc_radius(data,centers,distance_matrix) == 0
+
+def test_get_labels():
+    data = np.array([[1,2,3],[4,5,6],[7,8,9]])
+    distance_matrix = calc_distance_matrix(data,1)
+    centers = [0]
+    assert np.array_equal(get_labels(data,centers,distance_matrix),np.array([0,0,0]))
+    centers = [0,1]
+    assert np.array_equal(get_labels(data,centers,distance_matrix),np.array([0,1,1]))
+    centers = [0,1,2]
+    assert np.array_equal(get_labels(data,centers,distance_matrix),np.array([0,1,2]))

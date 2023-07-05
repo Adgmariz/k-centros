@@ -51,3 +51,16 @@ def calc_radius(data, centers, distance_matrix):
         if min_distance > radius:
             radius = min_distance
     return radius
+
+def get_labels(data, centers, distance_matrix):
+    #Calculates the nearest center for each point in data.
+    n = data.shape[0]
+    labels = np.zeros(n)
+    for i in range(n):
+        min_distance = np.inf
+        for center in centers:
+            distance = distance_matrix[i,center]
+            if distance < min_distance:
+                min_distance = distance
+                labels[i] = center
+    return labels
