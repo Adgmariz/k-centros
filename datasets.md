@@ -36,15 +36,6 @@ Foram usados os dados do arquivo 'letter-recognition', que contém 20000 instân
 10- diabetic: https://archive.ics.uci.edu/dataset/329/diabetic+retinopathy+debrecen+data+set
 Foram usados os dados do arquivo 'messidor_features.arff', que contém 1151 instâncias. k = 2
 
-
-
-
-- https://archive.ics.uci.edu/dataset/222/bank+marketing
-- https://archive.ics.uci.edu/dataset/484/travel+reviews
-- https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition
-(https://www.sciencedirect.com/science/article/pii/S2352340919306985?via%3Dihub)
-- https://archive.ics.uci.edu/dataset/379/website+phishing
-- https://archive.ics.uci.edu/dataset/342/mice+protein+expression
-- https://archive.ics.uci.edu/dataset/422/wireless+indoor+localization
-- https://archive.ics.uci.edu/dataset/475/audit+data
-- https://archive.ics.uci.edu/dataset/161/mammographic+mass (tratar missing values)
+11- cancer: https://archive.ics.uci.edu/dataset/161/mammographic+mass
+Foram usados os dados do arquivp '', que contém 961 instâncias. Foram excluídas 162 instâncias com valores faltantes.
+k = 2
