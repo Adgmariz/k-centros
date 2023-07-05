@@ -31,8 +31,11 @@ Foram usados os dados do arquivo 'yeast.data', que contém 1484 instâncias. k =
 Foram usados os dados do arquivo 'messidor_features.arff', que contém 1151 instâncias. k = 2
 
 9- cancer: https://archive.ics.uci.edu/dataset/161/mammographic+mass
-Foram usados os dados do arquivp '', que contém 961 instâncias. Foram excluídas 162 instâncias com valores faltantes.
+Foram usados os dados do arquivo 'mammographic_masses.data', que contém 961 instâncias. Foram excluídas 162 instâncias com valores faltantes.
 k = 2
+
+10- website: https://archive.ics.uci.edu/dataset/379/website+phishing
+Foram usados os dados do arquivo 'PhishingData.arff', que contém 1353 instâncias. k = 3
 
 
 
