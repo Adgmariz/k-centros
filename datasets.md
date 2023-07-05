@@ -30,12 +30,13 @@ Foram usados os dados do arquivo 'HTRU_2.csv', que contém 17898 instâncias. k 
 8- yeast: https://archive.ics.uci.edu/dataset/110/yeast
 Foram usados os dados do arquivo 'yeast.data', que contém 1484 instâncias. k = 10
 
-9- letter: https://archive.ics.uci.edu/dataset/59/letter+recognition
-Foram usados os dados do arquivo 'letter-recognition', que contém 20000 instâncias. k = 26
-
-10- diabetic: https://archive.ics.uci.edu/dataset/329/diabetic+retinopathy+debrecen+data+set
+9- diabetic: https://archive.ics.uci.edu/dataset/329/diabetic+retinopathy+debrecen+data+set
 Foram usados os dados do arquivo 'messidor_features.arff', que contém 1151 instâncias. k = 2
 
-11- cancer: https://archive.ics.uci.edu/dataset/161/mammographic+mass
+10- cancer: https://archive.ics.uci.edu/dataset/161/mammographic+mass
 Foram usados os dados do arquivp '', que contém 961 instâncias. Foram excluídas 162 instâncias com valores faltantes.
 k = 2
+
+
+não terminou de rodar ainda- letter: https://archive.ics.uci.edu/dataset/59/letter+recognition
+Foram usados os dados do arquivo 'letter-recognition', que contém 20000 instâncias. k = 26
