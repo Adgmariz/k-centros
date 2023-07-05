@@ -23,6 +23,9 @@ k = 11
 6- pendigits: https://archive.ics.uci.edu/dataset/81/pen+based+recognition+of+handwritten+digits
 Foram usados os dados do arquivo 'pendigits.tes', que contém 3498 instâncias.
 
+7- htru: https://archive.ics.uci.edu/dataset/372/htru2
+Foram usados os dados do arquivo 'HTRU_2.csv', que contém 17898 instâncias.
+
 
 
 
