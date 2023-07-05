@@ -33,7 +33,8 @@ Foram usados os dados do arquivo 'yeast.data', que contém 1484 instâncias. k =
 9- letter: https://archive.ics.uci.edu/dataset/59/letter+recognition
 Foram usados os dados do arquivo 'letter-recognition', que contém 20000 instâncias. k = 26
 
-10- 
+10- diabetic: https://archive.ics.uci.edu/dataset/329/diabetic+retinopathy+debrecen+data+set
+Foram usados os dados do arquivo 'messidor_features.arff', que contém 1151 instâncias. k = 2
 
 
 
