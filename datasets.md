@@ -20,9 +20,9 @@ k = 7
 Foram usados os dados do arquivo 'winequality-red.csv', que contém 1599 instâncias.
 k = 11
 
-6- pendigits: https://archive.ics.uci.edu/dataset/81/pen+based+recognition+of+handwritten+digits
-Foram usados os dados do arquivo 'pendigits.tes', que contém 3498 instâncias.
-k = 9
+5- whitewine: https://archive.ics.uci.edu/dataset/186/wine+quality
+Foram usados os dados do arquivo 'winequality-white.csv', que contém 4898 instâncias.
+k = 11
 
 7- htru: https://archive.ics.uci.edu/dataset/372/htru2
 Foram usados os dados do arquivo 'HTRU_2.csv', que contém 17898 instâncias. k = 2
