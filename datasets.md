@@ -26,6 +26,9 @@ Foram usados os dados do arquivo 'pendigits.tes', que contém 3498 instâncias.
 7- htru: https://archive.ics.uci.edu/dataset/372/htru2
 Foram usados os dados do arquivo 'HTRU_2.csv', que contém 17898 instâncias.
 
+8- yeast: https://archive.ics.uci.edu/dataset/110/yeast
+Foram usados os dados do arquivo 'yeast.data', que contém 1484 instâncias.
+
 
 
 
