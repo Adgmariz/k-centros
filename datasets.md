@@ -20,7 +20,7 @@ k = 7
 Foram usados os dados do arquivo 'winequality-red.csv', que contém 1599 instâncias.
 k = 11
 
-5- whitewine: https://archive.ics.uci.edu/dataset/186/wine+quality
+6- whitewine: https://archive.ics.uci.edu/dataset/186/wine+quality
 Foram usados os dados do arquivo 'winequality-white.csv', que contém 4898 instâncias.
 k = 11
 
