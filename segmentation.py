@@ -29,7 +29,7 @@ with open(filepath, 'r') as file:
         # Split the line into a list of strings (where each string represents a number)
         numbers = line.strip().split(',')
 
-        # Check if there are exactly {numbers_per_line} numbers on this line
+        # Check if there are {numbers_per_line} numbers on this line
         if len(numbers) != numbers_per_line:
             print(f"Line {line_num} has {len(numbers)} numbers instead of {numbers_per_line}.")
 
