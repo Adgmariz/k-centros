@@ -22,12 +22,15 @@ k = 11
 
 6- pendigits: https://archive.ics.uci.edu/dataset/81/pen+based+recognition+of+handwritten+digits
 Foram usados os dados do arquivo 'pendigits.tes', que contém 3498 instâncias.
+k = 9
 
 7- htru: https://archive.ics.uci.edu/dataset/372/htru2
 Foram usados os dados do arquivo 'HTRU_2.csv', que contém 17898 instâncias.
+k = 2
 
 8- yeast: https://archive.ics.uci.edu/dataset/110/yeast
 Foram usados os dados do arquivo 'yeast.data', que contém 1484 instâncias.
+k = 10
 
 
 
