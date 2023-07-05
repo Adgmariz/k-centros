@@ -16,9 +16,14 @@ k = 2
 Foram usados os dados do arquivo 'segmentation.test', que contém 2100 instâncias.
 k = 7
 
-5- red-wine: https://archive.ics.uci.edu/dataset/186/wine+quality
+5- redwine: https://archive.ics.uci.edu/dataset/186/wine+quality
 Foram usados os dados do arquivo 'winequality-red.csv', que contém 1599 instâncias.
 k = 11
+
+6- pendigits: https://archive.ics.uci.edu/dataset/81/pen+based+recognition+of+handwritten+digits
+Foram usados os dados do arquivo 'pendigits.tes', que contém 3498 instâncias.
+
+
 
 
 
