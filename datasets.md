@@ -30,7 +30,10 @@ Foram usados os dados do arquivo 'HTRU_2.csv', que contém 17898 instâncias. k 
 8- yeast: https://archive.ics.uci.edu/dataset/110/yeast
 Foram usados os dados do arquivo 'yeast.data', que contém 1484 instâncias. k = 10
 
+9- letter: https://archive.ics.uci.edu/dataset/59/letter+recognition
+Foram usados os dados do arquivo 'letter-recognition', que contém 20000 instâncias. k = 26
 
+10- 
 
 
 
